@@ -67,7 +67,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 SharedPreferences sharedPref = MainActivity.this.getSharedPreferences("hola",Context.MODE_PRIVATE);
                 SharedPreferences.Editor editor = sharedPref.edit();
-                editor.putString("hola", "4451239516");
+                editor.putString("hola", txtNumero.getText().toString());
+                editor.putString("mensaje", txtMensaje.getText().toString() );
                 editor.apply();
                 editor.commit();
             }

@@ -22,17 +22,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-<!--        <receiver-->
-<!--            android:name=".IncomingCallReceiver"-->
-<!--            android:enabled="true"-->
-<!--            android:exported="true">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.PHONE_STATE" />-->
-<!--                <action android:name="android.intent.action.Trigger" />-->
-<!--            </intent-filter>-->
-<!--        </receiver>-->
-
     </application>
 
 </manifest>
